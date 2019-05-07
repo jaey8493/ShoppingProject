@@ -1,0 +1,173 @@
+BODY {
+	FONT-SIZE: 9pt;
+	COLOR: black;
+	LINE-HEIGHT: 160%;
+	FONT-FAMILY: 굴림;
+	margin: 0 auto;
+	width: 1090px;
+}
+
+TD {
+	FONT-SIZE: 12pt;
+	COLOR: black;
+	LINE-HEIGHT: 200%;
+	FONT-FAMILY: 굴림
+}
+
+SELECT {
+	FONT-SIZE: 9pt;
+	COLOR: black;
+	LINE-HEIGHT: 160%;
+	FONT-FAMILY: 굴림
+}
+
+FORM {
+	FONT-SIZE: 9pt;
+	COLOR: black;
+	LINE-HEIGHT: 160%;
+	FONT-FAMILY: 굴림
+}
+
+UL {
+	list-style: none;
+}
+
+TEXTAREA {
+	BORDER-RIGHT: 1px solid #999999;
+	BORDER-TOP: 1px solid #999999;
+	FONT-SIZE: 9pt;
+	BORDER-LEFT: 1px solid #999999;
+	COLOR: BLACK;
+	BORDER-BOTTOM: 1px solid #999999;
+	FONT-FAMILY: 굴림, verdana;
+	BACKGROUND-COLOR: white
+}
+
+INPUT {
+	BORDER-RIGHT: 1px solid #999999;
+	BORDER-TOP: 1px solid #999999;
+	FONT-SIZE: 9pt;
+	BORDER-LEFT: 1px solid #999999;
+	COLOR: BLACK;
+	BORDER-BOTTOM: 2px solid #999999;;
+	BORDER-RIGHT: 2px solid #999999;
+	FONT-FAMILY: 굴림, verdana;
+	HEIGHT: 30px;
+	BACKGROUND-COLOR: white
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #aeaeae;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #aeaeae;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #aeaeae;
+}
+
+A:link {
+	text-decoration: none;
+	color: #696969
+}
+
+A:hover {
+	text-decoration: yes;
+	color: #66CCFF
+}
+
+A:visited {
+	text-decoration: none;
+	color: #330066
+}
+
+.button {
+	background-color: #0e6ad3;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+header {
+	width: 1090px;
+	margin: 0 auto;
+	height: 110px;
+	position: relative;
+}
+
+header>nav {
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
+.reg_header{
+	
+}
+.reg_btn{
+	background-color: #0e6ad3;
+	border: none;
+	color: white;
+	padding: 1px 5px;
+	text-align: center;
+	border-radius:5px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+}
+#gnb>li {
+	float: left;
+}
+
+#gnb>li>a {
+	display: block;
+	padding: 10px 20px;
+	font-size: 18px;
+	transition-duration: 0.4s;
+}
+#dvh{
+	width: 100%;
+	height: 80px;
+}
+#dvl{
+	float: left;
+	width: 25%;
+}
+#dvr{
+	float: left;
+	width: 75%;
+}
+#dvb{
+	margin-left: 40%;
+	
+}
+.reg_div>ul{
+	list-style: none;
+}
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label {
+    color:black;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) left top no-repeat;
+    cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -19px top no-repeat;
+}
