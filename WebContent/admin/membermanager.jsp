@@ -9,6 +9,8 @@
 <head>
 <meta charset="UTF-8">
 <title>관리자 회원관리</title>
+
+<link rel="stylesheet" type="text/css" href="../css/board.css">
 <link href="../css/style.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="../images/favicon.ico" />
 <link rel="icon" href="../images/favicon.ico">

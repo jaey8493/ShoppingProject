@@ -71,7 +71,7 @@ public class ProductMgr {
 		boolean b = false;
 		try {
 			//업로드할 이미지 경로(절대 경로)
-			String uploadDir ="C:/ShoppingProject/ShoppingProject/WebContent/data";
+			String uploadDir ="d:/ShoppingProject/WebContent/data";
 			//MultipartRequest multi=new MultipartRequest(request, savePath, sizeLimit, new DefaultFileRenamePolicy());
 			MultipartRequest multi = new MultipartRequest(request, uploadDir, 5*1024*1024, "utf-8");
 			conn = ds.getConnection();
@@ -152,7 +152,7 @@ public class ProductMgr {
 	public boolean updateProduct(HttpServletRequest request) {
 		boolean b = false;
 		try {
-			String uploadDir ="C:/ShoppingProject/ShoppingProject/WebContent/data";
+			String uploadDir ="d:/ShoppingProject/WebContent/data";
 			//MultipartRequest multi=new MultipartRequest(request, savePath, sizeLimit, new DefaultFileRenamePolicy());
 			MultipartRequest multi = new MultipartRequest(request, uploadDir, 5*1024*1024, "utf-8");
 			

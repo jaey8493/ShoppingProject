@@ -20,12 +20,11 @@
 
 <body>
 <%@ include file ="guest_top.jsp" %>
-<h2> ** 注文商品確認 **</h2>
 
 
-<table>
-	<tr>
-		<th>注文番号</th><th>商品名</th><th>注文量</th><th>注文日</th><th>注文状態</th>	
+<table style="width: 100%">
+	<tr style="background-color: blue;">
+		<th>주문번호</th><th>상품명</th><th>주문량</th><th>주문일</th><th>주문상황</th>	
 	</tr>
 	<%
 	String id = (String)session.getAttribute("idKey");
@@ -33,7 +32,7 @@
 	
 	if(list.size() == 0){
 	%>
-		<tr><td colspan="5">注文した商品がありません。</td></tr>
+		<tr><td colspan="5">주문한 물품이 없습니다.</td></tr>
 	<%
 	}else{
 		for(OrderBean ord:list){
@@ -47,12 +46,12 @@
 		<td>
 		<%
 		switch(ord.getState()){
-		case "1":out.println("受付"); break;
-		case "2":out.println("入金確認"); break;
-		case "3":out.println("配送準備"); break;
-		case "4":out.println("配送中"); break;
-		case "5":out.println("処理完了"); break;
-		default:out.println("受付中");
+		case "1":out.println("접수"); break;
+		case "2":out.println("입금확인"); break;
+		case "3":out.println("배송준비"); break;
+		case "4":out.println("배송중"); break;
+		case "5":out.println("배송완료"); break;
+		default:out.println("접수중");
 		}
 		 %>
 		</td>

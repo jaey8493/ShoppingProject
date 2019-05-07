@@ -105,7 +105,7 @@ header {
 header>nav {
 	position: absolute;
 	right: 0;
-	top: 30px;
+	top: -10px;
 }
 .reg_header{
 	
@@ -128,7 +128,7 @@ header>nav {
 #gnb>li>a {
 	display: block;
 	padding: 10px 20px;
-	font-size: 18px;
+	font-size: 15px;
 	transition-duration: 0.4s;
 }
 #dvh{

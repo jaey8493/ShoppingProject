@@ -15,6 +15,7 @@
 <meta charset="UTF-8">
 <title>장바구니 정보</title>
 <link href="../css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../css/board.css">
 <link rel="shortcut icon" href="../images/favicon.ico" />
 <link rel="icon" href="../images/favicon.ico">
 <script src="../js/script.js">

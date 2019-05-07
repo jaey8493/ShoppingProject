@@ -56,12 +56,12 @@ function inputCheck(){
 		location.href="../guest/guest_index.jsp"
 	}
 	
-	function memberDelete(){
+	/*function memberDelete(){
 		if (confirm("정말 탈퇴하시겠습니까?")) {
 			document.delForm.no.value = no;
 			document.delForm.submit();
 		}
-	}
+	}*/
 		
 	// 관리자 관련 메뉴
 	function func1AdminLogin(){
@@ -112,6 +112,13 @@ function inputCheck(){
 		if(confirm("정말 수정하시겠습니까?")){
 		document.updateForm.no.value = no;
 		document.updateForm.submit();
+		}
+		
+	}
+	function ProductDelete(no) { //productdetail.jsp 참고
+		if(confirm("정말 삭제하시겠습니까?")){
+		document.delForm.no.value = no;
+		document.delForm.submit();
 		}
 		
 	}

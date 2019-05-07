@@ -58,7 +58,7 @@ $(document).ready(function () {
 <% if(memid != null){%>
 		<tr style="text-align:center;">
 		<td style="background-color: #d99f9d">
-		<li style="list-style: none; height: 150px; color: white;font-size: 50px; line-height: 140%; "><%= memid %>様! <br>ご訪問を歓迎します。</li>
+		<li style="list-style: none; height: 150px; color: white;font-size: 50px; line-height: 140%; "><%= memid %>님<br>무민숍입니다.</li>
 			
 			<div id="slider">
 	<ul class="bxslider">
@@ -75,7 +75,7 @@ $(document).ready(function () {
 		<td style="background-color:#0e6ad3">
 		<!-- <td style="background-image: url(../images/pic.jpg); background-size: 100%;
 					background-size:100% font-size:20px;">  // 셀 배경으로 이미지 사용 가능-->
-			<li style="list-style: none; height: 150px; color: white;font-size: 50px; line-height: 140%; ">お客様 いらっしゃいませ!<br>ログイン後で使ってください!</li>
+			<li style="list-style: none; height: 150px; color: white;font-size: 50px; line-height: 140%; ">고객님 어서오세요 <br> 로그인후에 사용해주세요.</li>
 	<div id="slider">
 	<ul class="bxslider">
        <li><a href="productlist.jsp"><img src="../images/메인포스터1.png" title="이미지을 클릭하시면 상품을 보실수 있습니다."></a></li>
