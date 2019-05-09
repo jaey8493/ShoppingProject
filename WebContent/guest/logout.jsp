@@ -12,11 +12,11 @@ session.invalidate();
 <link rel="icon" href="../images/favicon.ico">
 <head>
 <meta charset="UTF-8">
-<title>ログアウト</title>
+<title>로그아웃</title>
 </head>
 <body>
 <script type="text/javascript">
-alert("ログアウト成功!!");
+alert("로그아웃성공!!");
 location.href="guest_index.jsp"; // 메인으로 이동함
 </script>
 </body>

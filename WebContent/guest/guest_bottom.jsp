@@ -1,9 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
 <hr style="width: 100%; float : left; ">
 <table style="width: 100%">
 	<tr>
-		<td style="text-align: center;">
+		<td style="text-align: center; font-family: 'Stylish', sans-serif; color:#2E2E2E">
 		<font size="5px">고객님의 방문은 힘이 됩니다.</font>
 		<img src="../images/kmove.gif" width="5%">
 		<font size="5px">Kmove스쿨  ▣02-123-4567</font>

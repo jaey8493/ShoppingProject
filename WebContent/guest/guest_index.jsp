@@ -23,7 +23,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ムミンショップ</title>
+<title>무민숍</title>
 <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
 
 <link rel="stylesheet" type="text/css" href="../css/board.css">
@@ -31,6 +31,7 @@
 <link href="../css/style.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="../images/favicon.ico" />
 <link rel="icon" href="../images/favicon.ico">
+<link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
 <script src="../js/script.js"></script>
 <script src="../js/jquery.bxslider.js"></script>
 <script type="text/javascript"></script>
@@ -57,8 +58,9 @@ $(document).ready(function () {
 	<table>
 <% if(memid != null){%>
 		<tr style="text-align:center;">
-		<td style="background-color: #d99f9d">
-		<li style="list-style: none; height: 150px; color: white;font-size: 50px; line-height: 140%; "><%= memid %>님<br>무민숍입니다.</li>
+		<td style="background-color:#F9894D">
+		<li style="list-style: none; height: 75px; color: white;font-size: 25px; line-height: 140%; 
+		font-family: 'Gamja Flower', cursive;"><%= memid %>님<br>무민숍입니다.</li>
 			
 			<div id="slider">
 	<ul class="bxslider">
@@ -72,10 +74,11 @@ $(document).ready(function () {
 	<tr>
 <%}else{%>
 		<tr style="text-align:center;">
-		<td style="background-color:#0e6ad3">
+		<td style="background-color:#2C4583">
 		<!-- <td style="background-image: url(../images/pic.jpg); background-size: 100%;
 					background-size:100% font-size:20px;">  // 셀 배경으로 이미지 사용 가능-->
-			<li style="list-style: none; height: 150px; color: white;font-size: 50px; line-height: 140%; ">고객님 어서오세요 <br> 로그인후에 사용해주세요.</li>
+			<li style="list-style: none; height: 75px; color: white;font-size: 25px; line-height: 140%; 
+			font-family: 'Gamja Flower', cursive;">고객님 어서오세요 <br> 로그인후에 사용해주세요.</li>
 	<div id="slider">
 	<ul class="bxslider">
        <li><a href="productlist.jsp"><img src="../images/메인포스터1.png" title="이미지을 클릭하시면 상품을 보실수 있습니다."></a></li>

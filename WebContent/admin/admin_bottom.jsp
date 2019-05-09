@@ -4,8 +4,8 @@
 <table style="widht:90%">
 	<tr>
 		<td style="text-align :center;">
-			<b>お客様の訪問は私に力になります。</b>
-		Kmoveスクール  ▣02-123-4567
+			<b>고객님의 방문이 힘이됩니다!</b>
+		Kmove스쿨▣02-123-4567
 		</td>
 	</tr>
 </table>

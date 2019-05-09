@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>注文商品目録</title>
+<title>주문상품목록</title>
 <link rel="stylesheet" type="text/css" href="../css/board.css">
 <link href="../css/style.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="../images/favicon.ico" />
@@ -23,7 +23,7 @@
 
 
 <table style="width: 100%">
-	<tr style="background-color: blue;">
+	<tr style="background-color:#A1A2E0">
 		<th>주문번호</th><th>상품명</th><th>주문량</th><th>주문일</th><th>주문상황</th>	
 	</tr>
 	<%

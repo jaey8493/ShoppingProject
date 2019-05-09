@@ -9,6 +9,7 @@
 <link href="../css/style.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="../images/favicon.ico" />
 <link rel="icon" href="../images/favicon.ico">
+<link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
 <script src="../js/script.js"></script>
 <script type="text/javascript">
 window.onload = function(){
@@ -65,14 +66,14 @@ if(id !=null){
 	<form name="loginForm">
 	<table>
 		<tr>
-		<td colspan="2"> * 회원 로그인 * </td>
+		<td colspan="2"style="font-family: 'Stylish', sans-serif;font-size: 20px;"> * 회원 로그인 * </td>
 		</tr>
 		<tr>
-		<td> 아이디 </td>
+		<td style="font-family: 'Stylish', sans-serif;font-size: 20px;"> 아이디 </td>
 		<td><input type="text" name="id" size="25"></td>
 		</tr>
 		<tr>
-		<td> 비밀번호 </td>
+		<td style="font-family: 'Stylish', sans-serif; font-size: 20px;"> 비밀번호 </td>
 		<td><input type="password" name="passwd" size="25" maxlength="16"></td>
 		</tr>
 		<tr>

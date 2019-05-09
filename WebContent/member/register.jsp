@@ -9,6 +9,7 @@
 <link href="../css/style.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="../images/favicon.ico" />
 <link rel="icon" href="../images/favicon.ico">
+<link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
 <script src="../js/script.js"></script>
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
 <script type="text/javascript">
@@ -78,10 +79,11 @@ window.onload = function(){
 		<div>
 			<div id=dvh>
 				<h1
-					style="text-align: left; font-family: gulim; background-color: #333333; color: white; margin: 9px 0; padding: 20px 0;">회원가입</h1>
+					style="text-align: left; font-family: gulim; background-color: #2C4583; color: white; 
+					margin: 9px 0; padding: 20px 0; text-align: center; font-family: 'Stylish', sans-serif;">회원가입</h1>
 			</div>
 			<div id=dvl style="padding: 32px 0 2px;">
-				<h3 style="padding-left: 20px;">정보 입력</h3>
+				<h3 style="padding-left: 20px; font-family: 'Stylish', sans-serif;">정보 입력</h3>
 			</div>
 			<div id=dvr style="padding: 32px 0 2px; list-style: none;">
 				<li style="padding-bottom: 18px;"><input type="text" name="id"
@@ -119,7 +121,7 @@ window.onload = function(){
 				</select></td>
 			</div>
 			<div id=dvl style="padding: 32px 0 2px;">
-				<h3 style="padding-left: 20px;">약관 동의</h3>
+				<h3 style="padding-left: 20px;font-family: 'Stylish', sans-serif;">약관 동의</h3>
 			</div>
 			<div id=dvr style="padding: 32px 0 2px; list-style: none;">
 				<li style="padding-bottom: 18px;">

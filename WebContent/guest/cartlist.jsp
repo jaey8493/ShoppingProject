@@ -18,6 +18,7 @@
 <link rel="stylesheet" type="text/css" href="../css/board.css">
 <link rel="shortcut icon" href="../images/favicon.ico" />
 <link rel="icon" href="../images/favicon.ico">
+
 <script src="../js/script.js">
 
 </script>
@@ -51,7 +52,7 @@
 			
 %>
 
-<tr>
+<tr style="text-align:center;">
 	<td><%=productBean.getName() %></td>
 	<td><%=subTotal %></td>
 	<form action="cartproc.jsp" method="get">
